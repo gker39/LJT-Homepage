@@ -36,6 +36,14 @@ I graduated from Shanghai Jiao Tong University (SJTU) in June 2024.
 
 - Zhiyuan Honor Scholarship, Shanghai Jiao Tong University (2020 – 2024)
 
+## Selected Publications
+
+<ul>
+  {% for post in site.publications reversed %}
+    {% include archive-single.html %}
+  {% endfor %}
+</ul>
+
 ## Contact
 
 - **Email**: jliugi@connect.ust.hk
